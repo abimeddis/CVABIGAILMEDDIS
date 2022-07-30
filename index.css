@@ -6,6 +6,7 @@
         background-size: cover;
         margin: 10px;
         font-size: 20px;
+        text-align: justify;
 
 }
 
@@ -38,6 +39,7 @@ h3 {
         position: relative;
         left: 30px;
         font-size: 20px;
+        padding-bottom: 50px;
 
 }
 
@@ -48,3 +50,14 @@ h3 {
         top: 20px;
 }
 
+.formacionacademica {
+        padding-bottom: 40px;
+}
+
+.experiencia {
+        padding-bottom: 40px;
+}
+
+.separador {
+        margin-top: 50px;
+}
