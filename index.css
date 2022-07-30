@@ -1,0 +1,50 @@
+*{
+        background-image: url(./imagenes/fondo-piedra-trazos-dorados_125540-130.jpg);
+        background-color: transparent;
+        background-attachment: fixed; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px;
+        font-size: 20px;
+
+}
+
+@font-face {
+        font-family: playball;
+        src: url(./fonts/Playball-Regular.ttf);
+}
+
+h1 {
+        color: black; 
+        text-decoration: underline; color: black;
+        font-family: "playball";
+        margin-top: 10px;
+        font-size: 60px;
+        font-weight: 10px;
+
+}
+
+h2 {
+        font-size: 50px;
+}
+
+h3 {
+        font-size: 40px;
+}
+
+.datosdecontacto {
+        display: inline-block;
+        margin-left: 100px;
+        position: relative;
+        left: 30px;
+        font-size: 20px;
+
+}
+
+.fotodeperfil {
+        width: 180px;
+        height: 180px;
+        position: relative;
+        top: 20px;
+}
+
