@@ -1,5 +1,4 @@
 * {
-        background: rgb(6,106,164);
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -23,7 +22,8 @@
         }
 
  .logo{
-        height: 80%;
+        height: 50%;
+        margin: 0px 20px;
 }
 
 ul {
@@ -32,6 +32,7 @@ ul {
         gap: 100px;
         height: 100%;
         width: 100%;
+        margin-top: 20px;
 }
 
 .navbar-link {
@@ -48,12 +49,14 @@ ul {
         width: 100%;
 }
 .intro {
-        margin-top: 60px;
+        background-color: #0093E9;
+        background-image:  repeating-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 30%;
+        height: 50%;
         flex-wrap: wrap;
 
 }
@@ -72,17 +75,20 @@ ul {
 
 
 .foto-perfil {
-        margin-top: 30px;
-        height: 130%;
+        margin-top: 20px;
+        height: 80%;
         border-radius: 130px;
 }
 
 .button {
+        background-color: #0093E9;
+        background-image:  repeating-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
         padding: 5px;
         width: 80%;
        border-radius: 30px;
         justify-content: center;
         font-size: 1em;
         font-weight: 100;
+        color: black;
 
 }
