@@ -65,7 +65,7 @@ ul {
 
 /* HERO */
 
-.hero {
+#hero {
         background-color: #0093E9;
         background-image:  repeating-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
         padding-top: 20px;
@@ -96,7 +96,7 @@ ul {
 
 .foto-perfil {
         height: 55%;
-        border-radius: 100%;
+        border-radius: 90%;
         box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -141,10 +141,14 @@ ul {
         height: 60px;
 }
 
+.foto-perfil:hover{
+        height: 65%;
+}
+
 /*HISTORIA LABORAL*/
 
 
-.historia-laboral{
+#historia-laboral{
         background-color: red;
         width: 100%;
         height: 120vh;
@@ -168,7 +172,7 @@ ul {
 
 /* CONTACTO */ 
 
-.contacto{
+#contacto{
         padding: 40px;
         width: 100%;
         background-color: #1CA1E2;
