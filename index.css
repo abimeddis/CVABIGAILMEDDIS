@@ -122,7 +122,7 @@ ul {
 /* EFECTO HOVER */ 
 
 .button:hover{
-        background-color: #D7D9CE;
+        background-color: #806633;
         color: black;
         font-size: 1.2em;
         border-radius: 30px;
@@ -133,16 +133,12 @@ ul {
 
 }
 .navbar-link:hover{
-        background-color:#D7D9CE;
+        background-color: #806633;
         padding: 10px;
 }
 
 .iconos-contacto:hover{
         height: 60px;
-}
-
-.foto-perfil:hover{
-        height: 65%;
 }
 
 
@@ -192,7 +188,7 @@ padding-top: 60px;
 }
         
 .container-formation:hover {
-backgraund-color: #D7D9CE;
+background-color:#806633;
 font-size: 1.3em;
 height: calc(auto + 20px);
 }
@@ -250,7 +246,7 @@ padding-top: 20px;
 }
                 
 .container-portfolio:hover {
-backgraund-color: #D7D9CE;
+background-color:#806633;
 font-size: 1.7em;
 height: calc(auto + 20px);
 flex-wrap: nowrap;
