@@ -71,7 +71,7 @@
     
     #hero {
         padding-top: 20px;
-        height: calc (100vh - 50px);
+        height: 130vh;
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -97,7 +97,7 @@
     
     .foto-perfil {
         height: 55%;
-        border-radius: 90%;
+        border-radius: 50%;
         box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
