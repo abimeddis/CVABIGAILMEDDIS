@@ -349,6 +349,24 @@
 text-decoration: none;
 color: red;
 }    
+
+.logo-whatsapp{
+    left: 85vw;
+    bottom: 5vw;
+    position: fixed;
+    color: white;
+    background-color: green;
+    border-radius: 60px;
+    }
+    
+.img-whatsapp{
+    height: 60px;
+    }
+
+    /*whatsapp*/
+.img-whatsapp:hover{
+    height: 75px;
+    }
     
     /* EFECTO HOVER */ 
     
