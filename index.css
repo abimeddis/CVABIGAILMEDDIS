@@ -1,420 +1,402 @@
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        
-    }
-    
-    @font-face {
-        font-family: "playball";
-        src: url(./fonts/Playball-Regular.ttf);
-    
-        font-family: "dancing-script";
-        src: url(./fonts/dancing-script.ttf);
-    }
-    
-    .body{
-        background-image: url(./imagenes/130.jpg);
-        background-size: cover;
-        background-repeat: no-repeat repeat;
-    }
-    
-    /* HEADER */ 
-    
-    .header {
-        width: 100vw;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        position: fixed;
-        background-color: white;
-        }
-    
-    .logoam {
-        padding-left: 10px;
-        height: 100%;
-    }
-    
-    .navbar {
-        width: 100%;
-        height:100%;
-    }
-    
-    .navbar ul {
-        display: flex;
-        list-style: none;
-        width: 100%;
-        height: 100%;
-        color: black;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .navbar-link {
-        text-decoration: none;
-        color: black;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: 500;
-        font-size: 20px;
-        width: 100%;    
-        height: 100%;  
-        border-radius: 30px;
-        border-bottom: black;
-    }
-    
-    
-    
-    /* HERO */
-    
-    #hero {
-        padding-top: 20px;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    .hero-div {
-        padding-top: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        width: 50%;
-        height: 100%;
-        font-size: 1.2em;
-        text-align: justify;
-        flex-wrap: wrap;
-    }
-    
-    
-    .foto-perfil {
-        height: 55%;
-        border-radius: 50%;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    }
-    
-    .button {
-        background-color: black;
-        text-decoration: none;
-        padding: 5px;
-        width: 50%;
-        font-size: 1em;
-        font-weight: 100;
-        text-align: center;
-        font-weight: 100;
-        color: white;
-        border-radius: 30px;
-        border-bottom: black;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);        
-    }
-    
-    
-    /*PORTFOLIO*/
-    
-    #portfolio {
-    width: 100%;
-    font-size: 1.3 rem;
-    color: black;
-    text-align: center; 
-    text-decoration: underline;
-    gap:30px;
-    padding-top: 60px;
-    }
-    
-    .portfolio{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 60px;
-    }
-                
-    .container-portfolio {
-    width: 20vw;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    border: 5px solid black;
-    border-radius: 20px;
-    flex-wrap: wrap;
-    gap: 5px;
-    }
-    
-    .container-portfolio p{
-    font-size: 1.2rem;
-    }
-    
-    .title-portfolio {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    font-style:oblique;
-    text-align: center;
-    display: block;
-    font-size: 1.7em;
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 20px;
-    }
-                
-    .logo-portfolio {
-    height: 70px;
-    width: 140px;
-    align-items: center;
-    }
-    
-                
-    
-    
-    
-    /* FORMACION */
-    
-    #formacion {
-    width: 100%;
-    padding-top: 80px;
-    gap: 30px;
-    }
-    
-    .formacion {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap:30px;
-    }
-    
-    .formacion-titulo {
-    display: block;
-    font-size: 1.7em;
-    text-align: center;
-    text-decoration: underline;
-    padding-bottom: 60px;
-    }
-                
-    .container-formation {
-    width: 30vh;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    border: 5px solid black;
-    border-radius: 20px;
-    flex-wrap: nowrap;
-    }
-        
-    .title-formation {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3em;
-    font-style:oblique;
-    text-align: center;
-    }
-        
-    .logo-formacion {
-    height: 40px;
-    align-items: center;
-    }
-       
-    
-    
-    
-    /*EXPERIENCIA*/
-    
-    #experiencia {
-    width: 100%;
-    padding-top: 50px;
-    gap:30px;
-    }
-    
-    .experiencia{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    }
-    .experiencia p{
-        display: block;
-    }
-    .titulo-exp {
-    display: block;
-    font-size: 1.7em;
-    text-align: center;
-    text-decoration: underline;
-    padding-bottom: 60px;
-    }
-        
-    .container-experiencia {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border: 5px solid black;
-    border-radius: 20px;
-    flex-wrap: wrap;
-    gap:15px;
-    padding: 10px;
-    }
-        
-    .exp-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3em;
-    font-style:oblique;
-    text-align: center;
-    }
-        
-    
-    /* CONTACTO */ 
-    
-    #contacto{
-    padding-top: 60px;
-    width: 100%;
-    gap:30px;
-    }
-    
-    .title-contacto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    text-align: center;
-    text-decoration: underline;
-    padding-bottom: 60px;
-    }
-    
-    .datosdecontacto {
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
-    width: 100%;
-    gap: 15px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    }
-    
-    .iconos-contacto{
-        height: 40px;
-        width: 100%;
-    }
-    
-    .div-iconos-contacto{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    
-    /* FOOTER */
-    .footer {
-        width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        }
-        
-.footer-copyright{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding-top: 30px;
-    text-align: center;
-    font-size: 1.4rem;
-    }
-                    
-.enlace-desarrollador{
-text-decoration: none;
-color: red;
-}    
+@font-face {
+  font-family: "playball";
+  src: url(./fonts/Playball-Regular.ttf);
 
-.logo-whatsapp{
-    left: 85vw;
-    bottom: 5vw;
-    position: fixed;
-    color: white;
-    background-color: green;
-    border-radius: 60px;
-    }
-    
-.img-whatsapp{
-    height: 60px;
-    }
+  font-family: "dancing-script";
+  src: url(./fonts/dancing-script.ttf);
+}
 
-    /*whatsapp*/
-.img-whatsapp:hover{
-    height: 75px;
-    }
-    
-    /* EFECTO HOVER */ 
-    
-    /*HEADER*/
-    .navbar-link:hover{
-        background-color: #806633;
-        padding: 10px;
-    }
-    
-    .iconos-contacto:hover{
-        height: 60px;
-    }
-    
-    /*HERO*/
-    .button:hover{
-        background-color: #806633;
-        color: black;
-        font-size: 1.2em;
-        border-radius: 30px;
-        border-bottom: black;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    
-    }
-    
-    
-    /*FORMACION*/
-    
-    .container-formation:hover {
-    background-color:#806633;
-    font-size: 1.3em;
-    height: calc(auto + 20px);
-    }
-    
-    /*PORTFOLIO*/
-    
-    .container-portfolio:hover {
-    background-color:#806633;
-    font-size: 1.3em;
-    height: calc(auto + 20px);
-    }
-    
-    
-    /*EXPERIENCIA*/
-    .container-experiencia:hover {
-    background-color:#806633;
-    font-size: 1.3em;
-    height: calc(auto + 20px);
-    gap: none;
-    }
+.body {
+  background-image: url(./imagenes/130.jpg);
+  background-size: cover;
+  background-repeat: no-repeat repeat;
+}
+
+/* HEADER */
+
+.header {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: fixed;
+  background-color: white;
+}
+
+.logoam {
+  padding-left: 10px;
+  height: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border-bottom: black;
+}
+
+/* HERO */
+
+#hero {
+  padding-top: 20px;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hero-div {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+  height: 100%;
+  font-size: 1.2em;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
+.foto-perfil {
+  height: 55%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button {
+  background-color: black;
+  text-decoration: none;
+  padding: 5px;
+  width: 50%;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+  font-weight: 100;
+  color: white;
+  border-radius: 30px;
+  border-bottom: black;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*PORTFOLIO*/
+
+#portfolio {
+  width: 100%;
+  font-size: 1.3 rem;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  gap: 30px;
+  padding-top: 60px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.container-portfolio {
+  width: 20vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  border: 5px solid black;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.container-portfolio p {
+  font-size: 1.2rem;
+}
+
+.title-portfolio {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  font-style: oblique;
+  text-align: center;
+  display: block;
+  font-size: 1.7em;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 20px;
+}
+
+.logo-portfolio {
+  height: 70px;
+  width: 140px;
+  align-items: center;
+}
+
+/* FORMACION */
+
+#formacion {
+  width: 100%;
+  padding-top: 80px;
+  gap: 30px;
+}
+
+.formacion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.formacion-titulo {
+  display: block;
+  font-size: 1.7em;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 60px;
+}
+
+.container-formation {
+  width: 30vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  border: 5px solid black;
+  border-radius: 20px;
+  flex-wrap: nowrap;
+}
+
+.title-formation {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  font-style: oblique;
+  text-align: center;
+}
+
+.logo-formacion {
+  height: 40px;
+  align-items: center;
+}
+
+/*EXPERIENCIA*/
+
+#experiencia {
+  width: 100%;
+  padding-top: 50px;
+  gap: 30px;
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.experiencia p {
+  display: block;
+}
+.titulo-exp {
+  display: block;
+  font-size: 1.7em;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 60px;
+}
+
+.container-experiencia {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+
+.exp-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  font-style: oblique;
+  text-align: center;
+}
+
+/* CONTACTO */
+
+#contacto {
+  padding-top: 60px;
+  width: 100%;
+  gap: 30px;
+}
+
+.title-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 60px;
+}
+
+.datosdecontacto {
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  width: 100%;
+  gap: 15px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconos-contacto {
+  height: 40px;
+  width: 100%;
+}
+
+.div-iconos-contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.enlace-desarrollador {
+  text-decoration: none;
+  color: red;
+}
+
+.logo-whatsapp {
+  left: 85vw;
+  bottom: 5vw;
+  position: fixed;
+  color: white;
+  background-color: green;
+  border-radius: 60px;
+}
+
+.img-whatsapp {
+  height: 60px;
+}
+
+/*whatsapp*/
+.img-whatsapp:hover {
+  height: 75px;
+}
+
+/* EFECTO HOVER */
+
+/*HEADER*/
+.navbar-link:hover {
+  background-color: #806633;
+  padding: 10px;
+}
+
+.iconos-contacto:hover {
+  height: 60px;
+}
+
+/*HERO*/
+.button:hover {
+  background-color: #806633;
+  color: black;
+  font-size: 1.2em;
+  border-radius: 30px;
+  border-bottom: black;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*FORMACION*/
+
+.container-formation:hover {
+  background-color: #806633;
+  font-size: 1.3em;
+  height: calc(auto + 20px);
+}
+
+/*PORTFOLIO*/
+
+.container-portfolio:hover {
+  background-color: #806633;
+  font-size: 1.3em;
+  height: calc(auto + 20px);
+}
+
+/*EXPERIENCIA*/
+.container-experiencia:hover {
+  background-color: #806633;
+  font-size: 1.3em;
+  height: calc(auto + 20px);
+  gap: none;
+}
